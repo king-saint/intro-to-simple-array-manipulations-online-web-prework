@@ -32,7 +32,8 @@ def shift_with_args(array, num)
   array.shift(num)
 end
 
-def using_concat
+my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
+def using_concat(array, new)
   
 end
 
