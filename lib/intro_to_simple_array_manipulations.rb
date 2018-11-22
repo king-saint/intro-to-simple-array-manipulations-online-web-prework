@@ -6,8 +6,11 @@ def using_push(array, string)
   array
 end
 
-def using_unshift
-  
+neighborhoods_in_northwest_brooklyn = ["Brooklyn Yards", "Cadman Plaza", "Clinton Hill", "Downtown Brooklyn", "DUMBO"]
+new_neighborhood = "Brooklyn Heights"
+def using_unshift(array, string)
+  array.unshift(string)
+  array
 end
 
 def using_pop
