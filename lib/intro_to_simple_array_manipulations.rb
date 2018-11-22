@@ -48,8 +48,9 @@ def using_uniq(array)
   array.uniq
 end
 
-def using_flatten
-  
+private_colleges_in_newyork = ["New York University", ["Manhattan School of Music ", "Columbia University"], "The Juilliard School", "Bard College", "Cooper Union"]
+def using_flatten(array)
+  array.flatten
 end
 
 def using_delete
