@@ -40,7 +40,7 @@ end
 
 list_of_esoteric_programming_languages = ["Ante", "ArnoldC", "Befunge", "Binary lambda calculus", "Chef", "GolfScript", "Ook!"]
 def using_insert(array, new_sect)
-  array[4] 
+  array.insert(new_sect)
 end
 
 def using_uniq
