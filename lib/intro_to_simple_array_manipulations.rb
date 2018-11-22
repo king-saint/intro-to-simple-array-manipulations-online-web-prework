@@ -29,8 +29,8 @@ def using_shift(array)
 end
 
 ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-def shift_with_args(array, num)
-  array.shift(num)
+def shift_with_args(array)
+  array.shift(2)
 end
 
 my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
@@ -41,7 +41,7 @@ end
 
 list_of_esoteric_programming_languages = ["Ante", "ArnoldC", "Befunge", "Binary lambda calculus", "Chef", "GolfScript", "Ook!"]
 def using_insert(array, new_sect)
-  array.insert(new_sect)
+  array[4].insert(new_sect)
 end
 
 captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
