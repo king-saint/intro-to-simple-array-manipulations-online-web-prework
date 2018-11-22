@@ -19,8 +19,7 @@ def using_pop(array)
 end
 
 chars_in_game_of_thrones = ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane"]
-def pop_with_args(array, number)
-  array.pop(2)
+def pop_with_args(array, num
 end
 
 def using_shift
