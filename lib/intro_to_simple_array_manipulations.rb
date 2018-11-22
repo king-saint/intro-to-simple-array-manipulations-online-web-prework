@@ -38,9 +38,9 @@ def using_concat(array, new)
   array
 end
 
-
-def using_insert
-  
+list_of_esoteric_programming_languages = ["Ante", "ArnoldC", "Befunge", "Binary lambda calculus", "Chef", "GolfScript", "Ook!"]
+def using_insert(array, new_sect)
+  array[4] 
 end
 
 def using_uniq
