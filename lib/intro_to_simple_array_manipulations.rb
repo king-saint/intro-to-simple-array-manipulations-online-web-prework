@@ -1,5 +1,7 @@
+countries_in_western_africa = ["Benin", "Carpe Verde", "Gambia", "Liberia", "Mali"]
+next_country = "Niger"
+
 def using_push(array, string)
-  
   array.push(string)
   array
   
