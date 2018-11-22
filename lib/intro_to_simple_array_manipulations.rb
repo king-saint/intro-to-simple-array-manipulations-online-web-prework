@@ -19,7 +19,8 @@ def using_pop(array)
 end
 
 chars_in_game_of_thrones = ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane"]
-def pop_with_args(array, num)
+def pop_with_args(array)
+  array.pop(2)
 end
 
 my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
