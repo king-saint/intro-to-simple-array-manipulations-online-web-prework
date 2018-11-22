@@ -34,7 +34,8 @@ end
 
 my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
 def using_concat(array, new)
-  
+  array.concat(new)
+  array
 end
 
 
