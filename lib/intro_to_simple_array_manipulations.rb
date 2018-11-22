@@ -27,8 +27,9 @@ def using_shift(array)
   array.shift
 end
 
-def shift_with_args
-  
+ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
+def shift_with_args(array, num)
+  array.shift(num)
 end
 
 def using_concat
