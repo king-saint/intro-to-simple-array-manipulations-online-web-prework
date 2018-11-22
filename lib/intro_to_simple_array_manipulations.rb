@@ -43,7 +43,8 @@ def using_insert(array, new_sect)
   array.insert(new_sect)
 end
 
-def using_uniq
+captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
+def using_uniq(array)
   
 end
 
